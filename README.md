@@ -1,49 +1,64 @@
-Sistema de Biblioteca Java Web
+Library Management System - Java
 
-Projeto acadêmico desenvolvido utilizando Java Web, Servlet, JSP, JDBC e MySQL.
+Aplicação web desenvolvida em Java utilizando Servlet, JSP, JDBC e MySQL, seguindo o padrão de arquitetura MVC (Model-View-Controller).
 
-Tecnologias utilizadas
-Java 17
-Servlet
-JSP
-MySQL
-JDBC
-Apache Tomcat
-Maven
-MVC
 Funcionalidades
 Cadastro de livros
-Validação de dados
-Classificação de livros antigos e modernos
-Identificação de autor desconhecido
+Listagem de livros cadastrados
+Validação de dados de entrada
 Persistência em banco de dados MySQL
+Classificação automática de livros
+Tecnologias Utilizadas
+Java 17
+Jakarta Servlet
+JSP
+JDBC
+MySQL
+Apache Tomcat
+Maven
 Arquitetura
 
-O projeto utiliza o padrão MVC:
+O projeto foi desenvolvido utilizando o padrão MVC (Model-View-Controller).
 
 Model
-Livro.java
-LivroDAO.java
-Conexao.java
+Livro
+LivroDAO
+Conexao
+RegraLivro
 View
 index.jsp
 resultado.jsp
 listarlivros.jsp
 Controller
-CadastroLivroServlet.java
-ListarLivrosServlet.java
+CadastroLivroServlet
+ListarLivrosServlet
+Estrutura do Projeto
+src/main/java
+├── controller
+├── database
+└── model
+
+src/main/webapp
+├── index.jsp
+├── resultado.jsp
+└── listarlivros.jsp
 Banco de Dados
 
-Banco: biblioteca
+Banco de dados utilizado:
 
-Tabela: livros
+biblioteca
+
+Tabela principal:
+
+livros
 
 Campos:
 
 id
 titulo
-Autor
+autor
 ano_publicacao
 classificacao
+Autor
 
 Matheus Moraes
