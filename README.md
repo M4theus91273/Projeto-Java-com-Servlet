@@ -1,38 +1,50 @@
-Library Management System - Java
+# Library Management System - Java
 
-Aplicação web desenvolvida em Java utilizando Servlet, JSP, JDBC e MySQL, seguindo o padrão de arquitetura MVC (Model-View-Controller).
+Web application developed in Java using Servlet, JSP, JDBC and MySQL, following the MVC (Model-View-Controller) architecture pattern.
 
-Funcionalidades
-Cadastro de livros
-Listagem de livros cadastrados
-Validação de dados de entrada
-Persistência em banco de dados MySQL
-Classificação automática de livros
-Tecnologias Utilizadas
-Java 17
-Jakarta Servlet
-JSP
-JDBC
-MySQL
-Apache Tomcat
-Maven
-Arquitetura
+## Features
 
-O projeto foi desenvolvido utilizando o padrão MVC (Model-View-Controller).
+* Book registration
+* Book listing
+* Input validation
+* MySQL database persistence
+* Automatic book classification
 
-Model
-Livro
-LivroDAO
-Conexao
-RegraLivro
-View
-index.jsp
-resultado.jsp
-listarlivros.jsp
-Controller
-CadastroLivroServlet
-ListarLivrosServlet
-Estrutura do Projeto
+## Technologies Used
+
+* Java 17
+* Jakarta Servlet
+* JSP
+* JDBC
+* MySQL
+* Apache Tomcat
+* Maven
+
+## Architecture
+
+The project follows the MVC (Model-View-Controller) pattern.
+
+### Model
+
+* Livro
+* LivroDAO
+* Conexao
+* RegraLivro
+
+### View
+
+* index.jsp
+* resultado.jsp
+* listarlivros.jsp
+
+### Controller
+
+* CadastroLivroServlet
+* ListarLivrosServlet
+
+## Project Structure
+
+```text
 src/main/java
 ├── controller
 ├── database
@@ -42,23 +54,30 @@ src/main/webapp
 ├── index.jsp
 ├── resultado.jsp
 └── listarlivros.jsp
-Banco de Dados
+```
 
-Banco de dados utilizado:
+## Database
 
+Database:
+
+```sql
 biblioteca
+```
 
-Tabela principal:
+Main table:
 
+```sql
 livros
+```
 
-Campos:
+Fields:
 
-id
-titulo
-autor
-ano_publicacao
-classificacao
-Autor
+* id
+* titulo
+* autor
+* ano_publicacao
+* classificacao
+
+## Author
 
 Matheus Moraes
