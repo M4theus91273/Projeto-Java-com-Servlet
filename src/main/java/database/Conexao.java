@@ -13,7 +13,7 @@ public class Conexao {
             "root";
 
     private static final String SENHA =
-            "Mathexx19364";
+            "Senha do Banco";
 
     public static Connection conectar()
             throws SQLException {
