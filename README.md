@@ -42,9 +42,8 @@ Campos:
 
 id
 titulo
-autor
+Autor
 ano_publicacao
 classificacao
-Autor
 
 Matheus Moraes
